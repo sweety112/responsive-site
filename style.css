@@ -1,0 +1,94 @@
+@charset 'UTF-8';
+
+
+
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2pt;
+    line-height: 1.6;
+    background-color: #e6e6fa;
+}
+.photo{
+    background-image: url(PARKOUR3.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+  h1
+   {
+    font-size: 2rem;
+    text-align: center;
+   }
+
+ .run
+   {
+      text-align: center;
+   }
+
+.wrap
+   {
+    background-color: white;   
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    
+   }
+.box
+   {
+    background-color:#8fbc8f;
+    width: 31%;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+   }
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+ footer
+   {
+     text-align: center;
+     padding: 30px;
+   }
+.radius-box3{
+    background-color: #dc143c;
+    height: 50px;
+    width: 450px;
+    margin: 30px auto;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    background-size: cover;
+}
+    h2
+    {
+        font-size: 1.6rem;
+    }
+   
+    
+    
+@media(max-width: 768px){
+    .box {
+        float: none;
+        width:80%;
+        padding: 30px;
+    }
+    .radius-box3{
+         width: 80%;
+        
+    }
+    .wrap{
+        width: 85%;
+        padding: 30px;
+    }
+    }
+}
